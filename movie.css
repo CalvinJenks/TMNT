@@ -1,0 +1,129 @@
+body
+{
+    background-image: url("background.png");
+    font-family: Tahoma;
+}
+
+.banner-image
+{
+    text-align: center;
+    background-image:url("bannerbackground.png");
+    background-size:50px;
+}
+
+.header
+{
+    font-size: 24pt;    
+    text-align: center;
+}
+
+.main {
+    width: 800px;
+    border: 4px solid grey;
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    height: 750px; 
+    position: relative;
+}
+
+.main-collumn {
+    flex-direction: column;
+    width: 550px;
+    display: flex; 
+}
+
+.rotten-banner
+{
+    background-image:url("rottenbackground.png");
+    height: 83px;
+}
+
+.percent-font
+{
+    font-size: 48pt;
+    color:red;
+}
+
+.review-font
+{
+    font-size: 8pt;
+    color: white;
+}
+
+.row 
+{
+    width: 550px;
+    display:flex;
+}
+  
+  .column 
+{
+    flex:50%;
+    font-size: 8pt; 
+}
+
+.review-box
+{
+    font-size:8pt;
+    background-color: #E1D697;
+    border: 2px solid grey;
+    margin:5px;
+    padding: 5px;
+}
+
+.reviewer-box
+{
+    font-size: 8pt;
+    height: 33px;
+    display: flex;
+    padding-bottom: 25px;
+}
+
+.general-picture
+{
+    height:50%;
+    width: 100%;
+    padding-left: -5px;
+    rotate: 180;    
+}
+
+.general-overview
+{
+    background-color:#A2B964;
+    font-size: 8pt;
+}
+
+.general-overview-font
+{
+    padding-left: 20px;
+}
+
+.tab
+{
+    padding-left: 40px;
+}
+
+.footer {
+    background-color: #A2B964;
+    padding: 5px; 
+    text-align: center; 
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    width: 95%; 
+}
+
+.fake-footer
+{
+    color: #A2B964;
+}
+
+.validators {
+    position: fixed; 
+    bottom: 10px; 
+    right: 10px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
